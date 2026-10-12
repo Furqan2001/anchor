@@ -1,0 +1,15 @@
+# Build output
+build/
+bin/
+*.o
+
+# Files generated at runtime
+/intrinsics.yml
+/calib_frame_*.png
+/static_ar_output.png
+/marker_*.png
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
