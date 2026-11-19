@@ -1,6 +1,8 @@
-# Camera Calibration & Augmented Reality
+# Anchor
 
-A camera calibration and augmented reality pipeline in C++ with OpenCV. The pipeline calibrates a webcam from a checkerboard target, estimates the target's 3D pose in real time, and projects virtual 3D objects onto the scene so they track the target as the camera moves. It also supports multiple ArUco targets, AR on still photos, and Harris corner feature detection.
+**Camera calibration and augmented reality in C++ with OpenCV.**
+
+Anchor calibrates a webcam from a checkerboard target, estimates the target's 3D pose in real time, and projects virtual 3D objects onto the scene so they stay anchored to the target as the camera moves. It also supports multiple ArUco targets, AR on still photos, and Harris corner feature detection.
 
 <p align="center">
   <img src="docs/images/rocket.png" width="48%" alt="Wireframe rocket rendered above a checkerboard">
